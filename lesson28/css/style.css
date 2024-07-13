@@ -1,0 +1,32 @@
+.curs {
+    font-family: "Open Sans", "Arial" sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.decor {
+    text-decoration: line-through;
+}
+
+.decor2 {
+    text-transform: uppercase;
+    font-weight: 100;
+    font: size 20px;
+    text-align: center;
+}
+
+.word {
+    word-spacing: 30px;
+    text-decoration: overline wavy #4b0869;
+    color: #4b0869;
+}
+
+.letter {
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
