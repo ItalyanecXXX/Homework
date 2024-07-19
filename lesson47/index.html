@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form name="Descript">
+        <fieldset>
+            <legend>Группа1</legend>
+            <label for="input1">Описание1</label>
+            <input id="input1" type="text">
+            <label>
+                Ваша фамилия
+                <input type="text">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Группа2</legend>
+            <label>
+                Ваша фамилия
+                <input type="text">
+            </label>
+            <select name="formselect">
+                <option value="">--Выбрать--</option>
+                <option value="var1">Вариант1</option>
+                <option value="var1">Вариант1</option>
+                <option value="var1">Вариант1</option>
+                <option value="var1">Вариант1</option>
+                <option value="var1">Вариант1</option>
+            </select>
+            <br>
+            <textarea cols="30" rows="2"></textarea>
+        </fieldset>
+        <fieldset>
+            <label>
+                Цифры
+                <input type="number" max="25" min="-5" step=".5">
+            </label>
+            <br>
+            <br>
+            <label>
+                Текст
+                <input type="text" placeholder="Иванов Иван">
+            </label>
+            <br>
+            <br>
+            <label>
+                Пароль
+                <input type="password" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Телефон
+                <input type="tel">
+            </label>
+            <br>
+            <br>
+            <label>
+                Почта
+                <input type="email">
+            </label>
+            <br>
+            <br>
+            <label>
+                Чекбокс
+                <input type="checkbox">
+            </label>
+            <label>
+                Чекбокс
+                <input type="checkbox">
+            </label>
+            <label>
+                Чекбокс
+                <input type="checkbox">
+            </label>
+            <br>
+            <br>
+            <label>
+                Текст
+                <input type="">
+            </label>
+            <br>
+            <br>
+            <label>
+                Вариант1
+                <input type="radio" name="radio1">
+            </label>
+            <label>
+                Вариант1
+                <input type="radio" name="radio1">
+            </label>
+            <label>
+                Вариант1
+                <input type="radio" name="radio1">
+            </label>
+            <br>
+            <br><label>
+                поиск
+                <input type="search">
+            </label>
+            <br>
+            <br>
+            <label>
+                Дата
+                <input type="date">
+            </label>
+            <br>
+            <br><label>
+                Файл
+                <input type="file">
+            </label>
+            <br>
+            <br>
+            <button type="reset">Очистить</button>
+            <button type="submit">Отправить</button>
+        </fieldset>
+    </form>
+</body>
+</html>
