@@ -1,0 +1,32 @@
+body {
+    background: #262628;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* ========================== */
+
+/* .inner {
+    display: flex;
+} */
+
+.inner__rectangle {
+    background: #fff;
+    border-radius: 10px;
+    min-height: 100px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.inner__round {
+    background: red;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
