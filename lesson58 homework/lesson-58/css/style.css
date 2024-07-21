@@ -1,0 +1,49 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    padding: 100px 100px 50vh;
+    height: 100%;
+}
+
+.square {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 2rem;
+    background: #575656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square__loading {
+    background: #fff;
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    max-width: 1000px;
+}
+
+.square__text {
+    transition-delay: 2s, 0s;
+    color: #575656;
+}
+
+.square:hover .square__text {
+    color: green;
+    
+}
+
+.square:hover .square__loading {
+    transform: scale(2);
+    width: 200%;
+    transition-duration: 2s, 0s;
+    transition-timing-function: ease-in;
+}
