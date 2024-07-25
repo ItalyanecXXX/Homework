@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+// Не будет ошибкой
+let message = "hello";
+message = 123456;
+console.log(`${message} сообщение`);
+
+alert( 1 / 0 ); // Infinity
+alert( "не число" / 2 ); // NaN, такое деление является ошибкой
+
+
+let str = "Привет";
+let str2 = 'Одинарные кавычки тоже подойдут';
+let phrase = `Обратные кавычки позволяют встраивать переменные ${str}`;
+
+
+let isGreater = 4 > 1;
+alert( isGreater ); // true (результатом сравнения будет "да")
+
+let age = null; //Это просто специальное значение, которое представляет собой «ничего», «пусто» или «значение неизвестно».
+
+let age; //Оно означает, что «значение не было присвоено».
+alert(age); // выведет "undefined"  Обычно null используется для присвоения переменной «пустого» или «неизвестного» значения, а undefined – для проверок, была ли переменная назначена.
+
+// Обычный синтаксис
+typeof 5 // Выведет "number"
+// Синтаксис, напоминающий вызов функции (встречается реже)
+typeof(5) // Также выведет "number"
+typeof 50 + " Квартир"; // Выведет "number Квартир"
+typeof (50 + " Квартир"); // Выведет "string"
+
+
+</script>
+</html>
