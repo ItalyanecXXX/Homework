@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="btns">
+      <div class="btn">
+        1
+        <div class="btn btn-2"> 
+          2
+          <!-- <div class="btn">
+            3
+
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <a href="/" onclick="event.preventDefault()">здесь</a>
+    <a href="/" onclick="return false">Нажми здесь</a>
+
+    <ul id="menu" class="menu">
+      <li><a href="/html">HTML</a></li>
+      <li><a href="/javascript">JavaScript</a></li>
+      <li><a href="/css">CSS</a></li>
+    </ul>
+
+    <button>Правый клик вызывает контекстное меню браузера</button>
+
+    <button oncontextmenu="alert('Рисуем наше меню'); return false">
+      Правый клик вызывает наше контекстное меню
+    </button>
+
+    <p><img id="largeImg" src="https://en.js.cx/gallery/img1-lg.jpg" alt="Large image"></p>
+
+  <ul id="thumbs">
+    <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
+    <li>
+      <a href="https://en.js.cx/gallery/img2-lg.jpg" title="Image 2"><img src="https://en.js.cx/gallery/img2-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img3-lg.jpg" title="Image 3"><img src="https://en.js.cx/gallery/img3-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img4-lg.jpg" title="Image 4"><img src="https://en.js.cx/gallery/img4-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img5-lg.jpg" title="Image 5"><img src="https://en.js.cx/gallery/img5-thumb.jpg"></a>
+    </li>
+    <li>
+      <a href="https://en.js.cx/gallery/img6-lg.jpg" title="Image 6"><img src="https://en.js.cx/gallery/img6-thumb.jpg"></a>
+    </li>
+  </ul>
+    <script src="./main.js"></script>
+</body>
+</html>
